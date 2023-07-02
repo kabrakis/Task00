@@ -42,8 +42,8 @@ public class Seminar1 {
     }
 
     static int maxBit (int i){
-        int n = 1 << 11; // создали переменную n присвоили 1 и прибавили еденице 11 нулей
-        while (i < n) n >>= 1; // в случае истины убираем один ноль от значение n
+        int n = 1 << 11;
+        while (i < n) n >>= 1;
         return n;
     }
     static int randomNum (){
