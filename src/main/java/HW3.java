@@ -3,13 +3,16 @@ import java.util.Random;
 
 public class HW3 {
     public static void main(String[] args) {
+
         ArrayList<Integer> integers = new ArrayList<>();
         ArrayList<Integer> temp = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
             integers.add(new Random().nextInt(50) + 1);
         }
+
         temp.addAll(integers);
+
         System.out.println("Список: " + integers);
         System.out.println("Список после удаления четных элементов: " + removeEvenElem(integers));
         System.out.println("Минимальный элемент списка: " + minElm(temp));
