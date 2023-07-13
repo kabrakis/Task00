@@ -1,9 +1,4 @@
 
-
-package org.example;
-
-
-import javax.swing.text.html.HTMLDocument;
 import java.util.*;
 
 
@@ -33,30 +28,30 @@ public class HW6 {
     }
 }
 
-    class mySet<T> {
-        private HashMap<T, Object> map = new HashMap<>();
-        private static final Object OBJ = new Object();
+class mySet<T> {
+    private HashMap<T, Object> map = new HashMap<>();
+    private static final Object OBJ = new Object();
 
-        public boolean add(T value) {
-            return map.put(value, OBJ) == null;
-        }
+    public boolean add(T value) {
+        return map.put(value, OBJ) == null;
+    }
 
-        public boolean remove(T value) {
-            return map.remove(value) != null;
-        }
+    public boolean remove(T value) {
+        return map.remove(value) != null;
+    }
 
-        public boolean isEmpty() {
-            return map.isEmpty();
-        }
+    public boolean isEmpty() {
+        return map.isEmpty();
+    }
 
-        @Override
-        public String toString() {
-            return map.keySet().toString();
-        }
+    @Override
+    public String toString() {
+        return map.keySet().toString();
+    }
 
-        public Iterator<T> iterator() {
-            return map.keySet().iterator();
-        }
+    public Iterator<T> iterator() {
+        return map.keySet().iterator();
+    }
 
     public T get(Integer i) {
         ArrayList<T> setMy = new ArrayList<>();
