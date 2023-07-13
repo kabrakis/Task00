@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89aa2b5f-e394-4926-a829-a05f31605779" name="Changes" comment="Finish">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW6.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -65,7 +66,9 @@
       <workItem from="1688674268317" duration="2000000" />
       <workItem from="1688905011635" duration="183000" />
       <workItem from="1689093469757" duration="6803000" />
-      <workItem from="1689176537866" duration="710000" />
+      <workItem from="1689176537866" duration="2194000" />
+      <workItem from="1689219729716" duration="159000" />
+      <workItem from="1689256416785" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="Finish">
       <option name="closed" value="true" />
@@ -123,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688716277006</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finish">
+      <option name="closed" value="true" />
+      <created>1689181476352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689181476352</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
